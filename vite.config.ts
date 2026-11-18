@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { fileURLToPath, URL } from 'node:url';
 import { viteSingleFile } from 'vite-plugin-singlefile';
 
-export default defineConfig({
+export default defineConfig({base: '/Idle-Bus-Empire-1/',
   plugins: [react(), viteSingleFile()],
   resolve: {
     alias: {
